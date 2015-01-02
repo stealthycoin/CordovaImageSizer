@@ -1,7 +1,6 @@
 #!/usr/bin/python
 from json import loads
 from subprocess import call
-sets = []
 with open('images/images.json') as f:
     sets = loads(f.read())
 
@@ -9,7 +8,6 @@ for s in sets:
     print "Processing " + s["name"]
     for target in s["targets"]:
         data = s["targets"][target]
-        cmd = []
         if data["type"] == "scale":
             cmd = ["convert", s["source"], "-resize", data["size"], s["path"] + target]
         elif data["type"] == "scale-crop":
