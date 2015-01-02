@@ -1,0 +1,149 @@
+[
+    {
+        "name": "android icons",
+        "source": "images/icon.png",
+        "path": "platforms/android/res/",
+        "targets": {
+            "drawable/icon.png": {
+                "size": "96x96",
+                "type": "scale"
+            },
+            "drawable-hdpi/icon.png": {
+                "size": "72x72",
+                "type": "scale"
+            },
+            "drawable-ldpi/icon.png": {
+                "size": "36x36",
+                "type": "scale"
+            },
+            "drawable-mdpi/icon.png": {
+                "size": "48x48",
+                "type": "scale"
+            },
+            "drawable-xhdpi/icon.png": {
+                "size": "96x96",
+                "type": "scale"
+            }
+        }
+    },
+
+    {
+        "name": "android splash images",
+        "source": "images/splash.png",
+        "path": "platforms/android/res/",
+        "targets": {
+            "drawable-land-hdpi/screen.png": {
+                "size": "800x480",
+                "type": "scale-crop"
+            },
+            "drawable-land-ldpi/screen.png": {
+                "size": "320x200",
+                "type": "scale-crop"
+            },
+            "drawable-land-mdpi/screen.png": {
+                "size": "480x320",
+                "type": "scale-crop"
+            },
+            "drawable-land-xhdpi/screen.png": {
+                "size": "1280x720",
+                "type": "scale-crop"
+            },
+            "drawable-port-hdpi/screen.png": {
+                "size": "480x800",
+                "type": "scale-crop"
+            },
+            "drawable-port-ldpi/screen.png": {
+                "size": "200x320",
+                "type": "scale-crop"
+            },
+            "drawable-port-mdpi/screen.png": {
+                "size": "320x480",
+                "type": "scale-crop"
+            },
+            "drawable-port-xhdpi/screen.png": {
+                "size": "720x1280",
+                "type": "scale-crop"
+            }
+        }
+    },
+
+    {
+        "name": "iOS icons",
+        "source": "images/icon.png",
+        "path": "platforms/ios/App/Resources/icons/",
+        "targets": {
+            "icon-40.png": {
+                "size": "40x40",
+                "type": "scale"
+            },
+            "icon-small.png": {
+                "size": "29x29",
+                "type": "scale"
+            },
+            "icon-50.png": {
+                "size": "50x50",
+                "type": "scale"
+            },
+            "icon-60.png": {
+                "size": "60x60",
+                "type": "scale"
+            },
+            "icon.png": {
+                "size": "57x57",
+                "type": "scale"
+            },
+            "icon@2x.png": {
+                "size": "114x114",
+                "type": "scale"
+            },
+            "icon-72.png": {
+                "size": "72x72",
+                "type": "scale"
+            },
+            "icon-76.png": {
+                "size": "76x76",
+                "type": "scale"
+            },
+            "icon-72@2x.png": {
+                "size": "152x152",
+                "type": "scale"
+            }
+        }
+    },
+
+    {
+        "name": "iOS splash images",
+        "source": "images/splash.png",
+        "path": "platforms/ios/App/Resources/splash/",
+        "targets": {
+            "Default-568h@2x~iphone.png": {
+                "size": "640x1136",
+                "type": "scale-crop"
+            },
+            "Default-Landscape@2x~ipad.png": {
+                "size": "2048x1536",
+                "type": "scale-crop"
+            },
+            "Default-Landscape~ipad.png": {
+                "size": "1024x768",
+                "type": "scale-crop"
+            },
+            "Default-Portrait@2x~ipad.png": {
+                "size": "1536x2048",
+                "type": "scale-crop"
+            },
+            "Default-Portrait~ipad.png": {
+                "size": "768x1024",
+                "type": "scale-crop"
+            },
+            "Default@2x~iphone.png": {
+                "size": "640x960",
+                "type": "scale-crop"
+            },
+            "Default~iphone.png": {
+                "size": "320x480",
+                "type": "scale-crop"
+            }
+        }
+    }
+]
