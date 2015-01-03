@@ -1,5 +1,29 @@
 [
     {
+        "name": "Store icons",
+        "source": "images/icon.png",
+        "path": "images/",
+        "targets": {
+            "play-store.png": {
+                "size": "512x512",
+                "type": "scale"
+            }
+        }
+    },
+
+    {
+        "name": "Android feature",
+        "source": "images/splash.png",
+        "path": "images/",
+        "targets": {
+            "android-feature.jpg": {
+                "size": "1024x500",
+                "type": "scale-crop"
+            }
+        }
+    },
+
+    {
         "name": "android icons",
         "source": "images/icon.png",
         "path": "platforms/android/res/",
