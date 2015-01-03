@@ -7,5 +7,5 @@ This can be added to ```hooks/after_build``` or ```hooks/after_platform_add```.
 
 Requirements
 -----------------
-ImageMagick
-python
+- ImageMagick
+- python
