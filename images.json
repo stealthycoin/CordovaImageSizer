@@ -95,53 +95,65 @@
         "name": "iOS icons",
         "source": "images/icon.png",
         "path": "platforms/ios/App/Resources/icons/",
-        "targets": {
-            "icon-40.png": {
-                "size": "40x40",
-                "type": "scale"
-            },
-            "icon-40@2x.png": {
-                "size": "80x80",
-                "type": "scale"
-            },
-            "icon-60@2x.png": {
-                "size": "120x120",
-                "type": "scale"
-            },
+        targets": {
+             "icon-40.png": {
+                 "size": "40x40",
+                 "type": "scale"
+             },
+             "icon-40@2x.png": {
+                 "size": "80x80",
+                 "type": "scale"
+             },
+             "icon-60@2x.png": {
+                 "size": "120x120",
+                 "type": "scale"
+             },
+             "icon-small.png": {
+                 "size": "29x29",
+                 "type": "scale"
+             },
+             "icon-small@2x.png": {
+                 "size": "58x58",
+                 "type": "scale"
+             },
 
-            "icon-small.png": {
-                "size": "29x29",
-                "type": "scale"
-            },
-            "icon-50.png": {
-                "size": "50x50",
-                "type": "scale"
-            },
-            "icon-60.png": {
-                "size": "60x60",
-                "type": "scale"
-            },
-            "icon.png": {
-                "size": "57x57",
-                "type": "scale"
-            },
-            "icon@2x.png": {
-                "size": "114x114",
-                "type": "scale"
-            },
-            "icon-72.png": {
-                "size": "72x72",
-                "type": "scale"
-            },
-            "icon-76.png": {
-                "size": "76x76",
-                "type": "scale"
-            },
-            "icon-72@2x.png": {
-                "size": "152x152",
-                "type": "scale"
-            }
-        }
+             "icon-50.png": {
+                 "size": "50x50",
+                 "type": "scale"
+             },
+             "icon-50@2x.png":{
+                 "size": "100x100",
+                 "type": "scale"
+             },
+             "icon-60.png": {
+                 "size": "60x60",
+                 "type": "scale"
+             },
+             "icon.png": {
+                 "size": "57x57",
+                 "type": "scale"
+             },
+             "icon@2x.png": {
+                 "size": "114x114",
+                 "type": "scale"
+             },
+             "icon-72.png": {
+                 "size": "72x72",
+                 "type": "scale"
+             },
+             "icon-76.png": {
+                 "size": "76x76",
+                 "type": "scale"
+             },
+             "icon-76@2x.png": {
+                 "size": "152x152",
+                 "type": "scale"
+             },
+             "icon-72@2x.png": {
+                 "size": "152x152",
+                 "type": "scale"
+             }
+         }
     },
 
     {
