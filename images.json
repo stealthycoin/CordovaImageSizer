@@ -95,7 +95,7 @@
         "name": "iOS icons",
         "source": "images/icon.png",
         "path": "platforms/ios/App/Resources/icons/",
-        targets": {
+        "targets": {
              "icon-40.png": {
                  "size": "40x40",
                  "type": "scale"
